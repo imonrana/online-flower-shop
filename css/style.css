@@ -85,7 +85,7 @@ header  .banner{
 
 .our_featured .section_description{
     padding: 14px 0px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .our_featured_item{
@@ -222,6 +222,10 @@ width: 100%;
 .instagram .section_title {
     font-size: 35px;
 }
+
+.instagram .section_description {
+    font-size: 18px;
+}
 .instagram .insta_galary{
     display: flex;
     justify-content: center;
@@ -277,6 +281,74 @@ width: 100%;
 }
 
 /* subscribe css end */
+
+/* customer feedback css start */
+
+.feedback_content{
+    margin: 68px 79px;
+}
+.feed_title{
+    color:#9b9b9b;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.feedback_content .title_content{
+    text-align: center;
+}
+
+.feedback_content .section_title{
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    color: #E55473;
+}
+
+.feedback_content .section_title::after {
+    content: '';
+    border: 2px solid red;
+    width: 33%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.feedback_content .section_title::before {
+    content: '';
+    border: 2px solid red;
+    width: 386px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
+
+.feedback_info {
+    text-align: center;
+    color: #4C4C4C;
+    font-size: 16px;
+    background-color: antiquewhite;
+    padding: 78px 178px 40px 178px;
+}
+.feedback_info .feed_footer{
+    color:#1B1919;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.feedback_info span{
+    color: #4C4C4C;
+    font-weight: 400;
+}
+
+.feedback_info  .primary_btn{
+    margin-top: 20px;
+    padding: 20px 25px;
+
+}
+
+
+/* customer feed back css end */
 
 
 /* main css end */
