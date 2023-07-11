@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* common Shared css start */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFF;
+}
+
+.section_title{
+    color: #272727;
+    font-size: 41px;
+    font-weight: 800;
+}
+
+.section_description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.primary_btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    cursor: pointer;
+    border: none;
+}
+
+/* common shared css end */
+
+/* header css start */
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+
+
+/* banner css start */
+header  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 240px;
+    gap:97px;
+    height: 100vh;
+
+}
+.banner_info{
+    padding-top: 197px;
+    padding-bottom: 147px;
+}
+
+.section_description{
+    padding: 14px 0px;
+}
+
+.banner_img img{
+    margin-top: 50px;
+    height: 606px;
+    width: 348px;
+}
+
+/* banner css end */
+
+/* header css end */
+
+/* main css start */
+
+/* featured flower css start */
+
+.our_featured{
+    margin: 178px 0px;
+    text-align: center;
+}
+
+.our_featured .section_title{
+    font-size: 30px;
+}
+
+.our_featured .section_description{
+    padding: 14px 0px;
+    font-size: 14px;
+}
+
+.our_featured_item{
+    margin: 0px 240px;
+    display: flex;
+    gap:24px;
+    justify-content: space-between;
+
+
+    
+}
+.flower_box{
+    height: 300px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.our_featured_item .box-1{
+    background: rgba(167, 33, 98, 0.15);
+    padding:64px 40px 0px 40px;
+}
+
+.our_featured_item .box-2{
+    background: rgba(5, 151, 160, 0.15);
+    padding:60px 25px 40px;
+}
+
+.our_featured_item .box-3{
+    background: rgba(71, 125, 17, 0.15);
+    padding: 45px 40px 0px 40px;
+}
+
+
+.flower_box img{
+width: 100%;
+
+}
+.box-caption{
+    color: #272727;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.box-2 .box-caption{
+    margin-top: 41px;
+}
+
+
+/* featured flower css end */
+
+/* customer service css start */
+
+
+.customer_service{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 87px 240px;
+
+
+}
+
+.service_info{
+    display: flex;
+    gap:33px;
+    padding:86px 132px;
+    justify-content: center;
+}
+
+.service img{
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
+}
+
+.service .img-3{
+ 
+    margin-left: 34px;
+}
+
+.service_caption{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* customer_service css end */
+
+
+
+
+/* hot deal's css start */
+
+.hot_deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hot_deal_info{
+    margin-top: 230px;
+}
+
+.hot_deal .section_title{
+    font-size: 30px;
+}
+
+.hot_deal span{
+    color:#E55473;
+}
+.hot_deal .section_description{
+    padding: 0px;
+    margin: 13px 0px;
+    font-size: 18px;
+}
+
+.hot_deal_img img{
+    margin-top: 100px;
+    width:90%;
+}
+/* hot deal's css end */
+
+
+/* insta css start */
+
+.instagram{
+    text-align: center;
+    padding: 128px 240px;
+}
+.instagram .section_title {
+    font-size: 35px;
+}
+.instagram .insta_galary{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+}
+
+.insta_galary .insta_image img{
+    height: 194px;
+    width: 194px;
+}
+
+/* insta css end */
+
+/* subscribe css start */
+
+.subscribe {
+    margin: 0px 240px 0px 240px;
+    padding-top: 58px;
+    padding-bottom: 122px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.subscribe .section_title {
+    font-size: 30px;
+}
+
+.subscribe .section_description{
+    font-size: 18px;
+}
+
+.subscribe input {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 18px 263px 18px 5px;
+    margin-right: 5px;
+    margin-left: 82px;
+    text-align: center;
+}
+
+.subscribe .primary_btn{
+    padding: 16px 29px;
+}
+
+.subscribe .subscribe_field{
+    text-align: center;
+}
+
+/* subscribe css end */
+
+
+/* main css end */
+
+/* footer css start */
+
+footer{
+    background: #111010;
+}
+
+footer .footer_info{
+    padding: 100px;
+    text-align: center;
+}
+
+footer .section_title{
+    color: #E55473;
+}
+footer span{
+    color: #FFFFFF;
+}
+
+footer .section_description{
+    color: rgba(255, 255, 255, 0.90);
+}
+
+footer .copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+/* footer css end */
